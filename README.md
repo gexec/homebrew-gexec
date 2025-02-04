@@ -1,6 +1,6 @@
 # Gexec: Homebrew
 
-[![General Workflow](https://github.com/gexec/homebrew-gexec/actions/workflows/general.yml/badge.svg)](https://github.com/gexec/homebrew-gexec/actions/workflows/general.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5adad7656a364377a46b4e480a276fee)](https://app.codacy.com/gh/gexec/homebrew-gexec/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![](https://dcbadge.limes.pink/api/server/Yda8rD4ZkJ)](https://discord.gg/Yda8rD4ZkJ)
+[![General Workflow](https://github.com/gexec/homebrew-gexec/actions/workflows/general.yml/badge.svg)](https://github.com/gexec/homebrew-gexec/actions/workflows/general.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5adad7656a364377a46b4e480a276fee)](https://app.codacy.com/gh/gexec/homebrew-gexec/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Discord](https://img.shields.io/discord/1335976189025849395)](https://discord.gg/Yda8rD4ZkJ)
 
 Homebrew repository to install [Gexec](https://gexec.eu) on macOS.
 
