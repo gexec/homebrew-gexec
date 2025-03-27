@@ -26,7 +26,7 @@ class GexecRunner < Formula
                        url.split("/").last.gsub(".tar.gz", "").gsub("v", "")
                      end
 
-    system "task", "build:runner"
+    system "task", "be:generate", "build:runner"
     bin.install "bin/gexec-runner"
 
     FileUtils.touch("gexec-runner.conf")

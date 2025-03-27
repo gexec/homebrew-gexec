@@ -26,7 +26,7 @@ class GexecClient < Formula
                        url.split("/").last.gsub(".tar.gz", "").gsub("v", "")
                      end
 
-    system "task", "build:client"
+    system "task", "be:generate", "build:client"
     bin.install "bin/gexec-client"
   end
 end

@@ -16,6 +16,7 @@ class GexecServer < Formula
 
   depends_on "go" => :build
   depends_on "go-task" => :build
+  depends_on "node@22" => :build
 
   def install
     ENV["CGO_ENABLED"] = "0"
@@ -26,7 +27,8 @@ class GexecServer < Formula
                        url.split("/").last.gsub(".tar.gz", "").gsub("v", "")
                      end
 
-    system "task", "build:server"
+    system "task", "fe:install", "fe:generate", "fe:build"
+    system "task", "be:generate", "build:server"
     bin.install "bin/gexec-server"
 
     FileUtils.touch("gexec-server.conf")
