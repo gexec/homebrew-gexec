@@ -2,7 +2,7 @@
 
 # Definition of the gexec-runner formula
 class GexecRunner < Formula
-  desc "Gexec: UI"
+  desc "Gexec: Runner"
   homepage "https://gexec.eu"
   license "Apache-2.0"
 

@@ -16,7 +16,7 @@ class GexecServer < Formula
 
   depends_on "go" => :build
   depends_on "go-task" => :build
-  depends_on "node@22" => :build
+  depends_on "node@24" => :build
 
   def install
     ENV["CGO_ENABLED"] = "0"
